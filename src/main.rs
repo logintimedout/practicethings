@@ -1,9 +1,14 @@
+use std::io;
+
 struct Owner{
     test2: String,
     output: i32,
 }
 
 fn main(){
+    let mut input = String::new();
+    io::stdin().read_line(&mut input).expect("Failed to read line");
+    println!("Input: {}", input.trim());
     let test2 = String::from("ee");
     let test3 = "test";
     let output = 42;
