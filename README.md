@@ -1,2 +1,3 @@
-#practice stuff
-random program to learn practice syntax
+# **Practice Stuff**
+
+Random program to learn and practice syntax
